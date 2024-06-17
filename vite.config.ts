@@ -142,8 +142,8 @@ export default defineConfig({
     cssCodeSplit: false,
     rollupOptions: {
       output: {
-        entryFileNames: '[name].js',
-        chunkFileNames: '[name].js',
+        entryFileNames: '[name].[hash].js',
+        chunkFileNames: '[name].[hash]js',
       },
     },
   },
